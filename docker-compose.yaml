@@ -1,0 +1,24 @@
+services:
+    plus-plus-front:
+        build:
+            context: ./front
+            dockerfile: ./front/Dockerfile
+        container_name: plus-plus-front
+        restart: unless-stopped
+        ports: "3000/3000"
+    plus-plus-back:
+        build:
+            context: ./back
+            dockerfile: ./back/Dockerfile
+        container_name: plus-plus-back
+        restart: unless-stopped
+    plus-plus-database:
+        image: postgres:18
+        container_name: plus-plus-database
+        restart: always
+        volumes: 
+          - pgdata:/var/lib/postgresql/data
+
+volumes: 
+  pgdata:
+        
