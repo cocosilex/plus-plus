@@ -1,10 +1,10 @@
-### Cahier des charges
+# Cahier des charges
 
-# Introduction
+## Introduction
 Le but de plus-plus est de proposer un site open source pratique et modulable.
 
 
-# Présentation des pages clés du site :
+## Présentation des pages clés du site :
 - Page de présentation du projet
 - Pages d'aide et d'explications
 - Page de login pour les utilisateurs
