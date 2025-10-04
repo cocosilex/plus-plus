@@ -1,0 +1,11 @@
+dist
+tmp
+out-tsc
+bazel-out
+
+node_modules
+npm-debug.log
+
+typings
+testem.log
+coverage
