@@ -1,16 +1,17 @@
 # Cahier des charges
 
-## Introduction
+## I) Introduction
 Le but de plus-plus est de proposer un site open source pratique et modulable.
 
 
-## Présentation des fonctionnalités clés du site :
+## II) Présentation des fonctionnalités clés du site :
 - Pages de présentation et d'explications + page de login
 - Panel admin pour chaque établissement avec un contrôle total 
 - Panel "prof" pour les responsables de chaque classe
 - Panel "examinateur" pour chaque examinateur
 - Panel élèves
 
+## III) Structure du frontend
 
 ### Panel présentation & misc
 - Page de présentation du projet
@@ -31,4 +32,5 @@ Le but de plus-plus est de proposer un site open source pratique et modulable.
 - Pages pour visualiser des notes 
 - Pages pour visualiser les examens oraux à venir
 
-
+## IV) Structure du Backend 
+=> TODO
