@@ -2,14 +2,14 @@ services:
     plus-plus-front:
         build:
             context: ./front
-            dockerfile: ./front/Dockerfile
+            dockerfile: Dockerfile
         container_name: plus-plus-front
         restart: unless-stopped
         ports: "3000/3000"
     plus-plus-back:
         build:
             context: ./back
-            dockerfile: ./back/Dockerfile
+            dockerfile: Dockerfile
         container_name: plus-plus-back
         restart: unless-stopped
     plus-plus-database:

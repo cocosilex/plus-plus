@@ -22,3 +22,7 @@ front/__screenshots__/
 # System files
 front/.DS_Store
 front/Thumbs.db
+
+## Back
+back/build
+back/.gradle
